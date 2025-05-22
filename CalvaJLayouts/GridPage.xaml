@@ -31,14 +31,12 @@
                Text="Row 1, Column 0"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
-        
-        <BoxView Grid.Row="1"
+        <Button
+                x:Name="BotonIrAStackLayoutPage"
+                Text="Ir a Stack Layout"
+                Clicked="BotonIrAStackLayoutPage_Clicked"
+                Grid.Row="1"
                  Grid.Column="1"
-                 Color="Purple" />
-        <Label Grid.Row="1"
-               Grid.Column="1"
-               Text="Row1, Column 1"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" />
+                 BackgroundColor="Purple"/>
     </Grid>
 </ContentPage>
