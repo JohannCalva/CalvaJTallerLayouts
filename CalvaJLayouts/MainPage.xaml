@@ -34,6 +34,10 @@
                 x:Name="BotonIrADemo"
                 Text="Ir a Demo"
                 Clicked="BotonIrADemo_Clicked"/>
+            <Button
+                x:Name="BotonIrAGrid"
+                Text="Ir a Grid"
+                Clicked="BotonIrAGrid_Clicked" />
         </VerticalStackLayout>
     </ScrollView>
 
