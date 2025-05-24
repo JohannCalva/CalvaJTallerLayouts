@@ -30,10 +30,7 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
-            <Button
-                x:Name="BotonIrADemo"
-                Text="Ir a Demo"
-                Clicked="BotonIrADemo_Clicked"/>
+
             <Button
                 x:Name="BotonIrAGrid"
                 Text="Ir a Grid"

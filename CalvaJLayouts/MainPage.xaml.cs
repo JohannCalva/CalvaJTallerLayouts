@@ -21,11 +21,6 @@
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
 
-        private void BotonIrADemo_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Demo());
-        }
-
         private void BotonIrAGrid_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new GridPage());
