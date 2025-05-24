@@ -2,25 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CalvaJLayouts.StackLayoutPage"
-             Title="StackLayoutPage">
-    <StackLayout Margin="20">
-        <Label Text="Primary colors" />
-        <BoxView Color="Red"
-                 HeightRequest="40" />
-        <BoxView Color="Yellow"
-                 HeightRequest="40" />
-        <BoxView Color="Blue"
-                 HeightRequest="40" />
-        <Label Text="Secondary colors" />
-        <BoxView Color="Green"
-                 HeightRequest="40" />
-        <BoxView Color="Orange"
-                 HeightRequest="40" />
-        <BoxView Color="Purple"
-                 HeightRequest="40" />
+             Title="Stack Layout">
+    <StackLayout Padding="30" Spacing="20">
+        <Label Text="Johann Matias" FontSize="32" FontAttributes="Bold" TextColor="Blue" HorizontalTextAlignment="Center" />
+        <Label Text="Calva" FontSize="24" FontAttributes="Bold" TextColor="ForestGreen" HorizontalTextAlignment="Center" />
+        <Label Text="Cadme" FontSize="18" TextColor="DarkOrange" HorizontalTextAlignment="Center" />
         <Button
-    x:Name="BotonIrAFlexLayoutPage"
-    Text="Ir a Flex Layout"
-    Clicked="BotonIrAFlexLayoutPage_Clicked"/>
+            x:Name="BotonIrAFlexLayoutPage"
+            Text="Ir a Flex Layout"
+            Clicked="BotonIrAFlexLayoutPage_Clicked"
+            BackgroundColor="DarkRed"
+            TextColor="White"
+            />  
     </StackLayout>
 </ContentPage>

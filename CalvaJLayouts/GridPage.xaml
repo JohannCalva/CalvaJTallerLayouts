@@ -12,31 +12,37 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        
-        <BoxView Color="Green" />
-        <Label Text="Row 0, Column 0"
+
+        <BoxView Color="#88B04B"
+                 CornerRadius="10"/>
+        <Label Text="Fila 0, Columna 0"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         
         <BoxView Grid.Column="1"
-                 Color="Blue" />
+                 Color="#FF6F61" 
+                 CornerRadius="10"/>
         <Label Grid.Column="1"
-               Text="Row 0, Column 1"
+               Text="Fila 0, Columna 1"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         
         <BoxView Grid.Row="1"
-                 Color="Teal" />
+                 Color="#6B5B95"
+                 CornerRadius="10"/>
         <Label Grid.Row="1"
-               Text="Row 1, Column 0"
+               Text="Fila 1, Columna 0"
                HorizontalOptions="Center"
-               VerticalOptions="Center" />
+               VerticalOptions="Center" 
+               />
         <Button
                 x:Name="BotonIrAStackLayoutPage"
                 Text="Ir a Stack Layout"
                 Clicked="BotonIrAStackLayoutPage_Clicked"
                 Grid.Row="1"
-                 Grid.Column="1"
-                 BackgroundColor="Purple"/>
+                Grid.Column="1"
+                BackgroundColor="SlateGray"
+                TextColor="White"
+                CornerRadius="10"/>
     </Grid>
 </ContentPage>
